@@ -1,0 +1,155 @@
+.error{
+  background-color: red;
+  width: 32px;
+  height: 32px;
+}
+
+.bio_lab{
+  width: 32px;
+  height: 32px;
+  background-image: url("../images/rooms/bio_lab.png");
+}
+
+.chem_lab{
+  width: 32px;
+  height: 32px;
+  background-image: url("../images/rooms/chem_lab.png");
+}
+
+.cross_connector{
+  width: 32px;
+  height: 32px;
+  background-image: url("../images/rooms/cross_connector.png");
+}
+
+.elevator{
+  width: 8px;
+  height: 24px;
+  background-image: url("../images/rooms/elevator_up.png");
+}
+
+.ellbow_connector{
+  width: 16px;
+  height: 16px;
+  background-image: url("../images/rooms/ellbow_connector.png");
+}
+
+.energy_lab{
+  width: 24px;
+  height: 24px;
+  background-image: url("../images/rooms/energy_lab.png");
+}
+
+.extended_hallway{
+  width: 8px;
+  height: 32px;
+  background-image: url("../images/rooms/extended_hallway.png");
+}
+
+.great_hall{
+  width: 24px;
+  height: 64px;
+  background-image: url("../images/rooms/great_hall.png");
+}
+
+.greater_hall{
+  width: 72px;
+  height: 64px;
+  background-image: url("../images/rooms/greater_hall.png");
+}
+
+.hall_grandest{
+  width: 64px;
+  height: 64px;
+  background-image: url("../images/rooms/hall_grandest.png");
+}
+
+.hall_grand{
+  width: 64px;
+  height: 64px;
+  background-image: url("../images/rooms/hall_grandest.png");
+}
+
+.large_garden{
+  width: 64px;
+  height: 64px;
+  background-image: url("../images/rooms/large_garden.png");
+}
+
+.observatory{
+  width: 96px;
+  height: 160px;
+  background-image: url("../images/rooms/observatory.png");
+}
+
+.obstacle_course{
+  width: 160px;
+  height: 192px;
+  background-image: url("../images/rooms/obstacle_course.png");
+}
+
+.oracle{
+  width: 16px;
+  height: 24px;
+  background-image: url("../images/rooms/oracle.png");
+}
+
+.orokin_lab{
+  width: 24px;
+  height: 48px;
+  background-image: url("../images/rooms/orokin_lab.png");
+}
+
+.reactor{
+  width: 24px;
+  height: 32px;
+  background-image: url("../images/rooms/reactor.png");
+}
+
+.small_garden{
+  width: 32px;
+  height: 32px;
+  background-image: url("../images/rooms/small_garden.png");
+}
+
+.starter_hall{
+  width: 32px;
+  height: 64px;
+  background-image: url("../images/rooms/starter_hall.png");
+}
+
+.straight_hallway{
+  width: 8px;
+  height: 16px;
+  background-image: url("../images/rooms/straight_hallway.png");
+}
+
+.tenno_lab{
+  width: 8px;
+  height: 16px;
+  background-image: url("../images/rooms/tenno_lab.png");
+}
+
+.tshaped_connector{
+  width: 32px;
+  height: 16px;
+  background-image: url("../images/rooms/tshaped_connector.png");
+}
+
+.portal{
+  width: 8px;
+  height: 8px;
+  background-color: green;
+  z-index: 300;
+  padding: 0px;
+  /*background-image: url("../images/rooms/portal.png");*/
+}
+
+.trade_post{
+  width: 8px;
+  height: 8px;
+  background-color: orange;
+  z-index: 300;
+  padding: 0px;
+  /*background-image: url("../images/rooms/trade_post.png");*/
+}

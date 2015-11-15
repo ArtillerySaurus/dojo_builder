@@ -1,0 +1,86 @@
+body {
+  display: block;
+  margin: 0px;
+  font-family: arial;
+}
+
+.draggable {
+  max-width: 50px !important;
+  max-height: 50px !important;
+  padding: 5px;
+  float: left;
+  margin: 0 10px 10px 0;
+  font-size: .9em;
+  background-position: center, center;
+  background-size: cover;
+  background-repeat: no-repeat, no-repeat;
+  cursor: pointer;
+}
+
+.helperClone{
+  opacity: 0.4;
+  filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.draggableClone {
+  position: absolute;
+  padding: 5px;
+  float: left;
+  background-color: #8a8a8a;
+  z-index: 150;
+  background-position: center, center;
+  background-size: cover;
+  background-repeat: no-repeat, no-repeat;
+  cursor: pointer;
+}
+
+.roomBar{
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px dashed black;
+  box-sizing: border-box;
+  z-index: 200;
+  overflow-y: scroll;
+}
+
+.dojoArea{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #8a8a8a;
+}
+
+.infoContainer{
+  /*width: 150px;*/
+  height: 100%;
+  position: relative;
+  float: right;
+  background-color: black;
+  z-index: 100;
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.resourceContainer{
+  list-style: none;
+}
+
+.infoContainer a{
+  color: white;
+  float: left;
+}
+
+.resourceContainer span{
+  float: right;
+}
+
+.removeRoom{
+  min-height: 150px;
+  min-width: 100px;
+  text-align: center;
+  border: 1px solid white;
+  margin-top: 20px;
+  border-radius: 5px;
+}

@@ -1,0 +1,158 @@
+body {
+  display: block;
+  margin: 0px;
+  font-family: arial;
+  overflow: hidden;
+  /*background-color: #8a8a8a;*/
+  background-color: red;
+}
+
+.draggable {
+  max-width: 50px !important;
+  max-height: 50px !important;
+  /*padding: 5px;*/
+  float: left;
+  margin: 0 10px 10px 0;
+  font-size: .9em;
+  background-position: center, center;
+  background-size: cover;
+  background-repeat: no-repeat, no-repeat;
+  cursor: pointer;
+}
+
+.helperClone{
+  opacity: 0.4;
+  border: 1px dashed white;
+  filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.draggableClone {
+  position: absolute;
+  /*padding: 5px;*/
+  float: left;
+  background-color: #8a8a8a;
+  background-position: center, center;
+  background-size: cover;
+  background-repeat: no-repeat, no-repeat;
+  cursor: pointer;
+  border: none;
+  box-sizing: border-box;
+  z-index: 20;
+}
+
+.cloneBorders{
+    border: 1px dashed white;
+}
+
+.roomBar{
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px dashed black;
+  box-sizing: border-box;
+  z-index: 200;
+  /*overflow-y: scroll;*/
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.toggleRoomBar{
+  position: absolute;
+  background-color: white;
+  display: block;
+  height: 25px;
+  width: 25px;
+  top: 100%;
+  left: 50%;
+  font-size: 30px;
+  line-height: 24px;
+  cursor: pointer;
+  border-radius: 0px 0px 10px 10px;
+  text-align: center;
+}
+
+#openRoomBar{
+  display: none;
+}
+
+.dojoArea{
+  position: absolute;
+  width: 2000px;
+  height: 2000px;
+  top: 0;
+  left: 0;
+  background-color: #8a8a8a;
+  border: 3px dashed black;
+  box-sizing: border-box;
+  cursor: all-scroll;
+}
+
+.infoContainer{
+  /*height: 100%;
+  position: relative;
+  float: right;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 20px;*/
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 10px 0px 0px 10px;
+  right: 0px;
+  top: 15%;
+  box-sizing: border-box;
+  z-index: 10;
+}
+
+.toggleInfoContainer{
+  position: absolute;
+  background-color: black;
+  display: block;
+  height: 25px;
+  width: 25px;
+  top: 50%;
+  left: -25px;
+  font-size: 30px;
+  line-height: 24px;
+  cursor: pointer;
+  border-radius: 10px 0px 0px 10px;
+}
+
+#openInfoContainer{
+  display: none;
+}
+
+.resourceContainer{
+  list-style: none;
+}
+
+.infoContainer a{
+  color: white;
+  float: left;
+}
+
+.resourceContainer span{
+  float: right;
+}
+
+.removeRoom{
+  min-height: 150px;
+  min-width: 100px;
+  text-align: center;
+  border: 1px solid white;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.options{
+
+}
+
+.options ul{
+  list-style: none;
+  padding: 0;
+}

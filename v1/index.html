@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Dojo builder</title>
+  <link type="text/css" href="style/jquery-ui.css" rel="stylesheet" />
+  <link type="text/css" href="style/main.css" rel="stylesheet" />
+  <link type="text/css" href="style/rooms.css" rel="stylesheet" />
+</head>
+<body>
+
+  <div class="roomBar">
+    <div class="draggable starter_hall ui-widget-content" data-roomName="starter_hall" title="starter_hall">
+    </div>
+    <div class="draggable bio_lab ui-widget-content" data-roomName="bio_lab" title="bio_lab">
+    </div>
+    <div class="draggable chem_lab ui-widget-content" data-roomName="chem_lab" title="chem_lab">
+    </div>
+    <div class="draggable cross_connector ui-widget-content" data-roomName="cross_connector" title="cross_connector">
+    </div>
+    <div class="draggable elevator ui-widget-content" data-roomName="elevator" title="elevator">
+    </div>
+    <div class="draggable ellbow_connector ui-widget-content" data-roomName="ellbow_connector" title="ellbow_connector">
+    </div>
+    <div class="draggable energy_lab ui-widget-content" data-roomName="energy_lab" title="energy_lab">
+    </div>
+    <div class="draggable extended_hallway ui-widget-content" data-roomName="extended_hallway" title="extended_hallway">
+    </div>
+    <div class="draggable great_hall ui-widget-content" data-roomName="great_hall" title="great_hall">
+    </div>
+    <div class="draggable greater_hall ui-widget-content" data-roomName="greater_hall" title="greater_hall">
+    </div>
+    <div class="draggable hall_grandest ui-widget-content" data-roomName="hall_grandest" title="hall_grandest">
+    </div>
+    <div class="draggable hall_grandest ui-widget-content" data-roomName="hall_grand" title="hall_grand">
+    </div>
+    <div class="draggable large_garden ui-widget-content" data-roomName="large_garden" title="large_garden">
+    </div>
+    <div class="draggable observatory ui-widget-content" data-roomName="observatory" title="observatory">
+    </div>
+    <div class="draggable oracle ui-widget-content" data-roomName="oracle" title="oracle">
+    </div>
+    <div class="draggable orokin_lab ui-widget-content" data-roomName="orokin_lab" title="orokin_lab">
+    </div>
+    <div class="draggable reactor ui-widget-content" data-roomName="reactor" title="reactor">
+    </div>
+    <div class="draggable small_garden ui-widget-content" data-roomName="small_garden" title="small_garden">
+    </div>
+    <div class="draggable straight_hallway ui-widget-content" data-roomName="straight_hallway" title="straight_hallway">
+    </div>
+    <div class="draggable tenno_lab ui-widget-content" data-roomName="tenno_lab" title="tenno_lab">
+    </div>
+    <div class="draggable tshaped_connector ui-widget-content" data-roomName="tshaped_connector" title="tshaped_connector">
+    </div>
+    <div class="draggable portal ui-widget-content" data-roomName="portal" title="portal">
+    </div>
+    <div class="draggable trade_post ui-widget-content" data-roomName="trade_post" title="trade_post">
+    </div>
+  </div>
+
+  <div class="infoContainer">
+    <a href="#"> Help </a> <br />
+    <br />
+
+    Clan rank:
+    <select id="clanRank">
+      <option value="1">Ghost</option>
+      <option value="3">Shadow</option>
+      <option value="10">Storm</option>
+      <option value="30">Mountain</option>
+      <option value="100">Moon</option>
+    </select>
+
+    <div class="dojoCosts">
+      <h2>Cost:</h2>
+      <table class="resourceContainer">
+      </table>
+    </div>
+    <div class="removeRoom">
+      <span>
+        Remove room
+      </span>
+    </div>
+  </div>
+  <div class="dojoArea">
+  </div>
+
+  <!-- <canvas class="dojoArea" id="myCanvas" width="200" height="100">
+  </canvas> -->
+
+
+  <script type="text/javascript" src="scripts/jquery.min.js"></script>
+  <script type="text/javascript" src="scripts/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="scripts/jQueryRotate.js"></script>
+  <script type="text/javascript" src="scripts/main.js"></script>
+
+</body>
+</html>

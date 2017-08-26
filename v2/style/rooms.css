@@ -118,7 +118,7 @@
   background-image: url("../images/rooms/starter_hall.png");
 }
 
-.straight_hallway{
+.StraightHallway{
   width: 8px;
   height: 16px;
   background-image: url("../images/rooms/straight_hallway.png");
@@ -132,7 +132,7 @@
 
 .TConnector{
   width: 32px;
-  height: 16px;
+  height: 32px;
   background-image: url("../images/rooms/tshaped_connector.png");
 }
 
